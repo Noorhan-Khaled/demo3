@@ -13,8 +13,26 @@ public class TestEmployee {
         }
         for (int i=0;i< list.size();i++){
             Employee employee=list.get(i);
-            employee.print();
+            employee.println();
         }
 
     }
+
+    public static ArrayList<Employee> getEmployee() {
+
+        ArrayList<Employee> list=new ArrayList<Employee>();
+        for (int i=1;i<=10;i++){
+            Employee employee=new Employee(i,Integer.toString(i),i);
+            list.add(employee);
+        }
+        for (int i=0;i< list.size();i++){
+            Employee employee=list.get(i);
+            employee.print();
+        }
+
+
+        return list;
+    }
+
+
 }
