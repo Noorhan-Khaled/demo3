@@ -29,6 +29,7 @@ public class TestDepartement {
            // System.out.print(" , ");
           departement.print();
             //output.println(departement.print());
+            output.println(departement.getDepId()+" "+departement.getDepName());
         }
     }
 }
