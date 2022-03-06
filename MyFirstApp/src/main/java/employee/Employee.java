@@ -43,6 +43,8 @@ public class Employee {
         System.out.println(getEmployeeId()+" "+getName()+" "+getSalary());
     }
 
-
+    public String printFile(){
+        return (getEmployeeId()+" "+getName()+" "+getSalary());
+    }
 
 }
