@@ -4,10 +4,10 @@ public class Departement {
     int depId;
     String depName;
 
-    Departement(int depId,String depName){
-        int dname=(Integer.parseInt(depName))+100;
+    Departement(int depId){
+        //int dname=(Integer.parseInt(depName))+100;
         this.depId=depId+100;
-        this.depName="departement_"+(Integer.toString(dname));
+        this.depName="departement_"+(Integer.toString(depId+100));
     }
 
     public int getDepId() {

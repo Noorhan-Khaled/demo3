@@ -9,7 +9,7 @@ public class TestDepartement {
     public static void main(String[] args) {
         ArrayList<Departement> list = new ArrayList<Departement>();
         for (int i = 1; i <= 10; i++) {
-            Departement departement = new Departement(i, Integer.toString(i));
+            Departement departement = new Departement(i);
             list.add(departement);
         }
         ArrayList<Employee> listEmp = TestEmployee.getEmployee();
