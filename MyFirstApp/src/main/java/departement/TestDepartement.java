@@ -29,7 +29,7 @@ public class TestDepartement {
            // System.out.print(" , ");
           //departement.print();
             //output.println(departement.print());
-            output.println(departement.print()+" "+emp.printFile());
+            output.println(departement.print()+" , "+emp.printFile());
         }
         output.close();
     }
