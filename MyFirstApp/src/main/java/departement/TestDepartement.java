@@ -24,10 +24,11 @@ public class TestDepartement {
         for (int i = 0; i < list.size(); i++) {
             Departement departement = list.get(i);
             Employee emp = listEmp.get(i);
-            emp.print();
+           // emp.print();
 
-            System.out.print(" , ");
-            departement.print();
+           // System.out.print(" , ");
+          //  departement.print();
+            output.println(emp.print()+" "+departement.print());
         }
     }
 }

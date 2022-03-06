@@ -25,8 +25,8 @@ public class Departement {
     public void setDepName(String depName) {
         this.depName = depName;
     }
-    public void print(){
-        System.out.println(getDepId()+" "+getDepName());
+    public String print(){
+        return (getDepId()+" "+getDepName());
     }
 
 }
