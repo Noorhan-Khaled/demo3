@@ -8,18 +8,14 @@ public class Employee {
     int salary;
 
     Departement departement;
+
      Employee(int employeeId, String name, int salary){
         this.employeeId=employeeId;
         this.name="name_"+name;
         this.salary=salary*1000;
 
     }
-    Employee(int employeeId,String name,int salary,Departement departement){
-        this.employeeId=employeeId;
-        this.name="name_"+name;
-        this.salary=salary*1000;
-        this.departement=departement;
-    }
+
 
     public int getEmployeeId() {
         return employeeId;
