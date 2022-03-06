@@ -11,6 +11,12 @@ public class Employee {
         this.salary=salary;
 
     }
+    Employee(int employeeId){
+        this.employeeId=employeeId;
+        this.name="name" + employeeId;
+        this.salary=employeeId * 1000 ;
+
+    }
 
     public int getEmployeeId() {
         return employeeId;
@@ -38,4 +44,6 @@ public class Employee {
     public void print(){
         System.out.print(getEmployeeId()+" "+getName()+" "+getSalary());
     }
+
+
 }
