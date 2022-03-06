@@ -36,8 +36,8 @@ public class Employee {
     public void setSalary(int salary) {
         this.salary = salary;
     }
-    public String print(){
-        return(getEmployeeId()+" "+getName()+" "+getSalary());
+    public void print(){
+        System.out.print(getEmployeeId()+" "+getName()+" "+getSalary());
     }
     public void println(){
         System.out.println(getEmployeeId()+" "+getName()+" "+getSalary());

@@ -46,8 +46,8 @@ public class TestEmployee {
         for (int i=0;i< list.size();i++){
             Employee employee=list.get(i);
             //employee.print();
-           // output.print(employee.getEmployeeId()+" "+employee.getName()+" "+employee.getSalary());
-            output.println(employee.print());
+            output.print(employee.getEmployeeId()+" "+employee.getName()+" "+employee.getSalary());
+            //output.println(employee.print());
         }
 
 
