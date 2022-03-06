@@ -12,10 +12,10 @@ public class TestEmployee {
     public static void main(String[] args) throws IOException {
 
         File file=new File("D:\\informatique\\work\\arr\\demo3\\MyFirstApp\\src\\main\\java\\employee\\employee");
-        if(file.exists()){
+      /*  if(file.exists()){
             System.out.println("File already exist");
             System.exit(1);
-        }
+        }*/
 
         PrintWriter output=new PrintWriter(file);
 
@@ -26,7 +26,7 @@ public class TestEmployee {
         }
         for (int i=0;i< list.size();i++){
             Employee employee=list.get(i);
-           // employee.println();
+           employee.println();
             output.println(employee.getEmployeeId()+" "+employee.getName()+" "+employee.getSalary());
         }
         output.close();
