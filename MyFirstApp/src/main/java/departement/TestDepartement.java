@@ -3,10 +3,12 @@ package departement;
 import employee.Employee;
 import employee.TestEmployee;
 
+import java.io.File;
 import java.util.ArrayList;
 
 public class TestDepartement {
     public static void main(String[] args) {
+        File file=new File("D:\\informatique\\work\\arr\\demo3\\MyFirstApp\\src\\main\\java\\departement\\departement");
         ArrayList<Departement> list = new ArrayList<Departement>();
         for (int i = 1; i <= 10; i++) {
             Departement departement = new Departement(i);
