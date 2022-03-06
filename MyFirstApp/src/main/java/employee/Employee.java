@@ -5,12 +5,7 @@ public class Employee {
     String name;
     int salary;
 
-    Employee(int employeeId,String name,int salary){
-        this.employeeId=employeeId;
-        this.name=name;
-        this.salary=salary;
 
-    }
     Employee(int employeeId){
         this.employeeId=employeeId;
         this.name="name" + employeeId;
