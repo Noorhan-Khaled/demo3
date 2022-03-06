@@ -29,6 +29,7 @@ public class TestEmployee {
            // employee.println();
             output.println(employee.getEmployeeId()+" "+employee.getName()+" "+employee.getSalary());
         }
+        output.close();
 
     }
 
