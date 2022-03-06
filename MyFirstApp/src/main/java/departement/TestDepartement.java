@@ -28,7 +28,7 @@ public class TestDepartement {
 
            // System.out.print(" , ");
           //  departement.print();
-            output.print(departement.print());
+            output.println(departement.print());
         }
     }
 }
