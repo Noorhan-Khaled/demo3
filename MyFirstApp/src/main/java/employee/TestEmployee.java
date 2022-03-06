@@ -28,8 +28,8 @@ public class TestEmployee {
         }
         for (int i=0;i< list.size();i++){
             Employee employee=list.get(i);
-          // employee.println();
-            output.println(employee.getEmployeeId()+" "+employee.getName()+" "+employee.getSalary());
+           employee.println();
+            output.print(employee.getEmployeeId()+" "+employee.getName()+" "+employee.getSalary());
             //output.println(employee.print());
         }
         //output.close();
