@@ -27,8 +27,8 @@ public class TestDepartement {
            // emp.print();
 
            // System.out.print(" , ");
-          //  departement.print();
-            output.println(departement.print());
+          departement.print();
+            //output.println(departement.print());
         }
     }
 }
