@@ -32,7 +32,7 @@ public class TestEmployee {
             output.print(employee.getEmployeeId()+" "+employee.getName()+" "+employee.getSalary());
             //output.println(employee.print());
         }
-        //output.close();
+        output.close();
 
     }
 
