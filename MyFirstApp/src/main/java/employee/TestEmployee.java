@@ -13,11 +13,6 @@ public class TestEmployee {
    static File file=new File("D:\\informatique\\work\\arr\\demo3\\MyFirstApp\\src\\main\\java\\employee\\employee");
     public static void main(String[] args) throws IOException {
 
-        //File file=new File("D:\\informatique\\work\\arr\\demo3\\MyFirstApp\\src\\main\\java\\employee\\employee");
-      /*  if(file.exists()){
-            System.out.println("File already exist");
-            System.exit(1);
-        }*/
 
         PrintWriter output=new PrintWriter(file);
 
