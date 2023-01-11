@@ -5,7 +5,6 @@ public class Departement {
     String depName;
 
     Departement(int depId){
-        //int dname=(Integer.parseInt(depName))+100;
         this.depId=depId+100;
         this.depName="departement_"+(Integer.toString(depId+100));
     }
